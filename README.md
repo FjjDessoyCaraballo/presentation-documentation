@@ -142,4 +142,6 @@ This one feature is only effective in GitHub, but you can copy links to headers 
 - [Text formatting](https://github.com/FjjDessoyCaraballo/presentation-documentation/tree/main?tab=readme-ov-file#bold-and-italic)
 - [List and bullet-points section](https://github.com/FjjDessoyCaraballo/presentation-documentation/tree/main?tab=readme-ov-file#lists-and-bullet-points)
 - [Links and website](https://github.com/FjjDessoyCaraballo/presentation-documentation/tree/main?tab=readme-ov-file#links-to-any-website)
-- []()
+- [Tables](https://github.com/FjjDessoyCaraballo/presentation-documentation/blob/main/README.md#tables)
+
+The easiest way to get these quick references to your own documentation is to click the chainlink in the document and copying the link that appears in your browser.
