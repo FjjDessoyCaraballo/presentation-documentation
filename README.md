@@ -99,3 +99,14 @@ For bullet-points, you can simply use a dash `-`:
 - two
 - three
 - four
+
+## Links to any website
+
+For links to websites, you need to use square brackets followed by parentheses `[]()`:
+
+Put the link text inside the square brackets [link text]
+Put the URL inside the parentheses (https://example.com)
+```
+Combined format: [link text](https://example.com)"
+```
+
