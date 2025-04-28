@@ -104,9 +104,42 @@ For bullet-points, you can simply use a dash `-`:
 
 For links to websites, you need to use square brackets followed by parentheses `[]()`:
 
-Put the link text inside the square brackets [link text]
-Put the URL inside the parentheses (https://example.com)
+Put the link text inside the square brackets `[link text]`
+Put the URL inside the parentheses `(https://example.com)`
 ```
 Combined format: [link text](https://example.com)"
 ```
 
+## Tables
+
+Doing tables is the one tricky thing in markdown because it requires some attention. You have to first use the vertical bar `|` separating each column in the first row which will be for your column headers of the table. Afterwards, you will write the same vertical bars but the content between bars will be filled with dashes `-`. The third and last row will then contain the row headers in the first column, and whatever content you desire in the rest of the cells. It sounds like a lot because it is a lot, but here's an example:
+
+```
+| header1 | header2 | header3 | header4 |
+| ------- | ------- | ------- | ------- |
+| price | 1.5 | 2.5 | 3.5 |
+| inflation | 2% | 2.5% | 0.8% |
+| reason | NA | NA | NA |
+```
+
+This will be the result in markdown:
+
+| header1 | header2 | header3 | header4 |
+| ------- | ------- | ------- | ------- |
+| price | 1.5 | 2.5 | 3.5 |
+| inflation | 2% | 2.5% | 0.8% |
+| reason | NA | NA | NA |
+
+As you can see, everything will fit nicely, even if you do not put proper spaces between the vertical bars. You can, and maybe should, make your strings bold or italic depending on necessity to help in your table visualizing. You can also add link within it, especially if you are referencing stuff within your table.
+
+## Referencing headers and subheaders with links
+
+This one feature is only effective in GitHub, but you can copy links to headers and subheader within the same page to "fast-forward" to specific parts of the document. The syntax is no different from forming a webpage link. Below we will have bullet-points with different links to this same document:
+
+- [Header section](https://github.com/FjjDessoyCaraballo/presentation-documentation/tree/main?tab=readme-ov-file#headers-with-)
+- [Backtick section](https://github.com/FjjDessoyCaraballo/presentation-documentation/tree/main?tab=readme-ov-file#the-most-powerful-showcase-of-the-backtick-)
+- [Triple backtick section](https://github.com/FjjDessoyCaraballo/presentation-documentation/tree/main?tab=readme-ov-file#triple-backticks-gets-you-snippets)
+- [Text formatting](https://github.com/FjjDessoyCaraballo/presentation-documentation/tree/main?tab=readme-ov-file#bold-and-italic)
+- [List and bullet-points section](https://github.com/FjjDessoyCaraballo/presentation-documentation/tree/main?tab=readme-ov-file#lists-and-bullet-points)
+- [Links and website](https://github.com/FjjDessoyCaraballo/presentation-documentation/tree/main?tab=readme-ov-file#links-to-any-website)
+- []()
